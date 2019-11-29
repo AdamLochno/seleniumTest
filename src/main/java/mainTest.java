@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 public class mainTest {
 
@@ -24,28 +25,30 @@ public class mainTest {
 
     @Before
     public void setUp() {
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver_win32\\chromedriver.exe");
 
         driver.get("https://demobank.jaktestowac.pl/logowanie_etap_1.html");
-        driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(1000,TimeUnit.SECONDS);
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(1000,TimeUnit.SECONDS);
     }
 
     @Test
     public void firstTest() {
-        System.out.println("Początek pierwszego testu");
-        System.out.println("Początek pierwszego testu");
-        driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 
-        loginField.sendKeys("12345678");
-    submitButton.click();
-    driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-    passwordField.sendKeys("12345");
-    loginButton.click();
-        driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-        System.out.println("Koniec pierwszego testu");
+            System.out.println("Początek pierwszego testu");
+//        driver.manage().timeouts().pageLoadTimeout(1000,TimeUnit.SECONDS);
+            loginField.sendKeys("12345678");
+            submitButton.click();
+//    driver.manage().timeouts().pageLoadTimeout(1000,TimeUnit.SECONDS);
+            passwordField.sendKeys("12345");
+            loginButton.click();
+            driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+            System.out.println("Koniec pierwszego testu");
+
     }
 
     @Test

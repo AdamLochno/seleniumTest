@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6aa2a00-0e35-4a75-9852-80b4f37f8d0b" name="Default Changelist" comment="">
+    <list default="true" id="f6aa2a00-0e35-4a75-9852-80b4f37f8d0b" name="Default Changelist" comment="aaaa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +34,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testselenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testselenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,6 +82,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.mainTest.firstTest" />
+        <item itemvalue="JUnit.mainTest" />
         <item itemvalue="Application.mainTest" />
       </list>
     </recent_temporary>
@@ -86,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574944681114</updated>
     </task>
+    <task id="LOCAL-00001" summary="aaaa">
+      <created>1575017265164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575017265164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,10 +113,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaa" />
   </component>
 </project>
