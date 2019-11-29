@@ -36,6 +36,7 @@ public class mainTest {
     @Test
     public void firstTest() {
         System.out.println("Początek pierwszego testu");
+        System.out.println("Początek pierwszego testu");
         driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
 
         loginField.sendKeys("12345678");
